@@ -1,2 +1,2 @@
-# Nahida
-my nahida landing page
+# landing-nahida
+personal project and study
