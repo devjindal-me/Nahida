@@ -1,42 +1,76 @@
 # Nahida - The Dendro Archon
 
-A beautifully designed Next.js website showcasing Nahida from Genshin Impact.
+A beautifully designed, production-ready Next.js website showcasing Nahida from Genshin Impact. Built with modern best practices and clean architecture.
 
-## 🚀 Getting Started
+## ✨ Features
 
-Install dependencies:
+- **Clean Component Architecture** - Modular, reusable components
+- **TypeScript** - Fully typed for reliability
+- **Custom Hooks** - Shared logic extraction
+- **Responsive Design** - Mobile-first approach
+- **Smooth Animations** - Intersection Observer animations
+- **Path Aliases** - Clean imports with `@/` prefix
+
+## 🏗️ Project Structure
+
+```
+src/
+├── app/              # Next.js App Router
+├── components/       # React components (8 total)
+├── types/           # TypeScript interfaces
+├── data/            # Static data & constants
+└── hooks/           # Custom React hooks
+```
+
+See [PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md) for detailed architecture documentation.
+
+## 🚀 Quick Start
+
 ```bash
+# Install dependencies
 npm install
-```
 
-Run the development server:
-```bash
+# Run development server
 npm run dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 📦 Build
-
-```bash
+# Build for production
 npm run build
+
+# Start production server
+npm start
 ```
 
-## 🎨 Sections
+Open [http://localhost:3000](http://localhost:3000)
 
-- **Header** - Navigation menu
-- **Intro** - Hero section with Nahida's character art
-- **Profile** - Character introduction and overview
-- **History** - Background story and lore
-- **Skills** - Detailed skill descriptions with elemental icons
-- **Footer** - Credits and links
+## 📦 Tech Stack
 
-## 🛠️ Tech Stack
+- **Next.js 15** - React framework with App Router
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Google Fonts** - Baloo 2, Fredoka, Petrona
+- **Turbopack** - Fast bundler
 
-- Next.js 15
-- React 19
-- TypeScript
-- Google Fonts (Baloo 2, Fredoka, Petrona)
+## 🧩 Component Overview
+
+| Component | Purpose |
+|-----------|---------|
+| `Header` | Navigation menu |
+| `Hero` | Hero section with character art |
+| `Profile` | Character introduction |
+| `History` | Lore and background |
+| `Skills` | Skills section container |
+| `SkillCard` | Individual skill display |
+| `ElementalBurst` | Special burst skill card |
+| `Footer` | Credits and links |
+
+## 📝 Code Quality
+
+- ✅ Zero linter errors
+- ✅ Full TypeScript coverage
+- ✅ Modular component structure
+- ✅ Separated concerns (data/types/components/logic)
+- ✅ Reusable components
+- ✅ Custom hooks for shared logic
 
 ## 👤 Author
 
